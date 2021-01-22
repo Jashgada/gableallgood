@@ -1,0 +1,15 @@
+<!-- TODO: Maybe use flexbox instead?? Responsiveness is fucked with grid -->
+
+<h2 class="mt-2">Meet the team!</h2>
+<div class="row">
+    <div class="col-md-3" *ngFor="let member of members | async">
+        <div class="card p-2 mt-2">
+            <img class="card-img-top img-fluid" [src]="member.address" height="100px" width="100px" alt="">
+            <div class="card-body">
+                <p class="card-text text-center"> {{member.name}}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+

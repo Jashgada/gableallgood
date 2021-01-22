@@ -1,0 +1,7 @@
+<div *ngFor="let platform of platforms | async">
+    <div>
+        <collapsible-well [title] = "platform.name">
+        <p>{{platform.info}}</p>
+        </collapsible-well>
+    </div>
+</div>

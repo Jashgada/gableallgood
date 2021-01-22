@@ -1,0 +1,54 @@
+<!-- <nav class="navbar navbar-expand-md ">
+      <a routerLink="/" class="navbar-brand">AprilAllGood</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a routerLink="/meet" class="nav-link" routerLinkActive="active">Meet April & Taylor</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/platform" class="nav-link" routerLinkActive="active">Platform</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/team" class="nav-link" routerLinkActive="active">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/campus-support" class="nav-link" routerLinkActive="active">Campus Support</a>
+          </li>
+        </ul>
+      </div>
+data-toggle="collapse" data-target="#navbarToggler"
+  </nav> -->
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    
+    <a class="navbar-brand" routerLink='/'>
+    <img src="../../assets/logo/Final Logo_Logo 02 copy 11.png" width="70" height="70" class="ml-3">
+  </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"  aria-controls="navbarToggler" aria-expanded="false" aria-label = "Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarToggler" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+            <a routerLink="/meet" class="nav-link" routerLinkActive="active">Meet April & Taylor</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/platform" class="nav-link" routerLinkActive="active">Platform</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/team" class="nav-link" routerLinkActive="active">Our Team</a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="/campus-support" class="nav-link" routerLinkActive="active">Campus Support</a>
+          </li>
+      </ul>
+    </div>
+  
+  </nav>
