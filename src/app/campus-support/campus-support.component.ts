@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { SupportService } from './campus-support.service';
 
 @Component({
   selector: 'app-campus-support',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CampusSupportComponent implements OnInit {
 
-  constructor() { }
+  supports: Observable<any[]>;
+  modalImg:string;
+  imgOpen:boolean = false;
+  constructor( private supportService: SupportService) { }
 
   ngOnInit(): void {
+this.supports = this.supportService.getSupports();
   }
 
+  openImage(src:string){
+    this.modalImg = src;
+this.imgOpen = true;
+    console.log(src);
+  }
+closeImage(){
+  this.imgOpen = false;
+}
 }

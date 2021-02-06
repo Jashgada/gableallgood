@@ -23,12 +23,17 @@
 data-toggle="collapse" data-target="#navbarToggler"
   </nav> -->
 
+  <link href="https://allfont.net/allfont.css?fonts=compact-light" rel="stylesheet" type="text/css" />
 
-
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     
-    <a class="navbar-brand" routerLink='/'>
-    <img src="../../assets/logo/Final Logo_Logo 02 copy 11.png" width="70" height="70" class="ml-3">
+    <a class="navbar-brand logo" routerLink='/'>
+    <img src="../../assets/logo/Site_logo.png" height="150" width="150">
+    <!-- <div class="maintext">
+      <p>GABLE+</p>
+      <p>ALLGOOD</p>
+    </div>
+    <p id="subtext">TOGET<span>HER</span> WE WILL</p> -->
   </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed"  aria-controls="navbarToggler" aria-expanded="false" aria-label = "Toggle navigation">
       <span class="navbar-toggler-icon"></span>

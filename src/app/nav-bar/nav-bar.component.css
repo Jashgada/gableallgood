@@ -1,7 +1,43 @@
 .navbar{
-    background-color:#ffd151;
+    background-color:#bb0f55;
+    font-family: 'Compact Light';
 }
 
 .navbar a{
     font-size: 1.3em;
+}
+.navbar-brand{
+    line-height: 5px;
+    
+    color: #591937;
+    font-weight: 800;
+}
+
+
+#subext{
+    font-size: large;
+    color: #591937;
+    
+}
+
+#subtext span{
+    
+    color: #591937;
+    -webkit-text-fill-color:white;
+    
+}
+
+#subtext:hover{
+    color: #591937;
+    -webkit-text-fill-color:#591937;
+}
+
+
+.maintext{
+    color: #591937;
+}
+
+
+.logo:hover img{
+    src: url('../../assets/logo/Site_logo_fill.png');
 }

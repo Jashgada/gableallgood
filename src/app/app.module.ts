@@ -14,6 +14,7 @@ import { CollapsibleWellComponent } from './platform/collapsible-well.component'
 import { PlatformService } from './platform/platform.service';
 import { PlatformListComponent } from './platform/platform-list.component';
 import { TeamsService } from './team/teams.service';
+import { SupportService } from './campus-support/campus-support.service';
 
 @NgModule({
   declarations: [
@@ -32,8 +33,10 @@ import { TeamsService } from './team/teams.service';
     AppRoutingModule,
     NgbModule
   ],
-  providers: [PlatformService,
-  TeamsService],
+  providers: [
+    PlatformService,
+  TeamsService,
+SupportService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
