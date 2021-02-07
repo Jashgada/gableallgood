@@ -14,14 +14,20 @@ img{
     min-width: 300px;
     box-shadow: 5px 5px 3px grey;
 }
-
-h2{
-    text-align: center;
-}
-
 p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 11pt;
     text-align: center;
 }
+
+H2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 28pt;
+    text-align: center;
+}
+
 
 .modal {
     display: block; /* Hidden by default */

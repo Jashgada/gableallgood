@@ -4,7 +4,10 @@
 }
 
 .navbar a{
-    font-size: 1.3em;
+    font-size: 1.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    
 }
 .navbar-brand{
     line-height: 5px;
@@ -41,3 +44,4 @@
 .logo:hover img{
     src: url('../../assets/logo/Site_logo_fill.png');
 }
+
