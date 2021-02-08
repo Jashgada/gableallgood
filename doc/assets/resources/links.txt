@@ -1,0 +1,3 @@
+https://stackblitz.com/edit/angular-animations-slide-on-scroll?file=src%2Fapp%2Fhello.component.ts
+https://animate.style/
+https://www.youtube.com/watch?v=2a2p2FhBgfA&ab_channel=CalerEdwards
