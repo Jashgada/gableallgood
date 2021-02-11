@@ -2,9 +2,10 @@
     .intro{
         display: flex;
         flex-wrap: wrap; 
+        padding-top: 60px;
+}
 }
 
-}
 
 
 .intro-2-img{
@@ -32,4 +33,15 @@ H3{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 28pt;
+    text-align: center;
+}
+
+.pic-shot{
+    border: 6px solid #bb0f55;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #591937;
 }

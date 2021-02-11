@@ -15,25 +15,25 @@ export class SupportService{
 
 const SUPPORT = [
     {
-        address: "../../assets/campus-support/campus-support1.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     },
     {
-        address: "../../assets/campus-support/campus-support2.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     },
     {
-        address: "../../assets/campus-support/campus-support1.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     },
     {
-        address: "../../assets/campus-support/campus-support1.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     },
     {
-        address: "../../assets/campus-support/campus-support1.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     },
     {
-        address: "../../assets/campus-support/campus-support1.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     },
     {
-        address: "../../assets/campus-support/campus-support1.jpg"
+        address: "../../assets/campus-support/campus-support1.png"
     }
 
 ]
