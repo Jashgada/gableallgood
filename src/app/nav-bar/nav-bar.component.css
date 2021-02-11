@@ -1,6 +1,8 @@
+
 .navbar{
-    background-color:#bb0f55;
+    background-color: white;
     font-family: 'Compact Light';
+    border-bottom:5px solid #bb0f55;
 }
 
 .navbar a{

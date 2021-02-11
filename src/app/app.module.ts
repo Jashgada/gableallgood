@@ -15,6 +15,8 @@ import { PlatformService } from './platform/platform.service';
 import { PlatformListComponent } from './platform/platform-list.component';
 import { TeamsService } from './team/teams.service';
 import { SupportService } from './campus-support/campus-support.service';
+import { PlatformIconsComponent } from './platform/platform-icons/platform-icons.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { SupportService } from './campus-support/campus-support.service';
     CampusSupportComponent,
     HomeComponent,
     CollapsibleWellComponent,
-    PlatformListComponent
+    PlatformListComponent,
+    PlatformIconsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

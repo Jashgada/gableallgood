@@ -7,9 +7,10 @@
 
 .box1{
     flex-basis: 20%;
-    background-color: cornsilk;
-    border: 2px crimson solid;
+    /* background-color: cornsilk;
+    border: 2px crimson solid; */
     border-width: 2px;
+    text-align: center;
 }
 
 
