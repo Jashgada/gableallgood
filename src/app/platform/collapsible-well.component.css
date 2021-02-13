@@ -9,5 +9,21 @@ H3{
     font-weight: 600;
     color: white;
     cursor: pointer;
+    
+}
+
+.cherry{
+    background-color: #bb0f55;
+}
+
+.yellowish{
     background-color: #ffd151;
+}
+
+.darkmaroon{
+    background-color: #591937;
+}
+
+.isthischerry{
+    background-color: #8e2857;
 }

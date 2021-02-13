@@ -1,5 +1,5 @@
 <div (click)="toggleContent()" class="well pointable">
-    <h3 class="well-title p-2">{{visible?'-':'+'}} {{title}}</h3>
+    <h3 class="well-title p-2" [ngClass]="backgroundColor">{{visible?'-':'+'}} {{title}}</h3>
     <ng-content *ngIf="visible"></ng-content>
 </div>
 

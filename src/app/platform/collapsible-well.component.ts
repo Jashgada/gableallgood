@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CollapsibleWellComponent implements OnInit{
     @Input() title: string;
+    @Input() backgroundColor: string;
     visible = false;
 
     ngOnInit(){
@@ -14,5 +15,9 @@ export class CollapsibleWellComponent implements OnInit{
     }
     toggleContent(){
         this.visible = !this.visible;
+    }
+
+    getBackgroundColor(){
+        return this.backgroundColor;
     }
 }

@@ -1,6 +1,6 @@
 <div *ngFor="let platform of platforms | async">
     <div>
-        <collapsible-well [title] = "platform.name">
+        <collapsible-well [title] = "platform.name" [backgroundColor]="platform.color">
         <p>{{platform.info}}</p>
         </collapsible-well>
     </div>
