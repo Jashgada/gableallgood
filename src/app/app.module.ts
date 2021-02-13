@@ -17,6 +17,7 @@ import { TeamsService } from './team/teams.service';
 import { SupportService } from './campus-support/campus-support.service';
 import { PlatformIconsComponent } from './platform/platform-icons/platform-icons.component';
 import { FooterComponent } from './footer/footer.component';
+import { SubmitIdeasComponent } from './submit-ideas/submit-ideas.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FooterComponent } from './footer/footer.component';
     CollapsibleWellComponent,
     PlatformListComponent,
     PlatformIconsComponent,
-    FooterComponent
+    FooterComponent,
+    SubmitIdeasComponent
   ],
   imports: [
     BrowserModule,

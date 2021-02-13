@@ -4,6 +4,7 @@ import { CampusSupportComponent } from './campus-support/campus-support.componen
 import { HomeComponent } from './home/home.component';
 import { MeetComponent } from './meet/meet.component';
 import { PlatformComponent } from './platform/platform.component';
+import { SubmitIdeasComponent } from './submit-ideas/submit-ideas.component';
 import { TeamComponent } from './team/team.component';
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   {path:'meet', component:MeetComponent},
   {path:'campus-support', component:CampusSupportComponent},
   {path:'platform', component:PlatformComponent},
-  {path:'team', component:TeamComponent}
+  {path:'team', component:TeamComponent},
+  {path:'ideas', component:SubmitIdeasComponent}
 
 ];
 

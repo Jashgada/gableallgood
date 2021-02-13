@@ -1,4 +1,6 @@
 <div (click)="toggleContent()" class="well pointable">
-    <h3 class="well-title" style="cursor: pointer;">{{title}}</h3>
+    <h3 class="well-title p-2">{{visible?'-':'+'}} {{title}}</h3>
     <ng-content *ngIf="visible"></ng-content>
 </div>
+
+
