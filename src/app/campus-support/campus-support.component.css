@@ -14,6 +14,10 @@ img{
     min-width: 300px;
     box-shadow: 5px 5px 3px grey;
 }
+
+img:hover{
+    box-shadow: 6px 6px 4px grey;
+}
 p{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;

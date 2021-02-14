@@ -3,13 +3,22 @@
 <h2 class="mt-2">Meet the team!</h2>
 <div class="row">
     <div class="col-md-3" *ngFor="let member of members | async">
-        <div class="card p-2 mt-2">
-            <img class="card-img-top img-fluid" [src]="member.address" height="100px" width="100px" alt="">
-            <div class="card-body">
-                <p class="card-text text-center">{{member.name}}</p>
+        <div class="p-2 mt-2">
+            <img class="img-fluid" [src]="member.address || member.addressHover" (mouseenter)="member.address = member.address.Hover" (mouseleave)="member.address = member.addressHoverOut" alt="">
+            <div>
+                <p class="text-center">{{member.name}}</p>
             </div>
         </div>
     </div>
 </div>
 
-
+<!-- <div class="row">
+    <div class="col-md-3" *ngFor="let member of members | async">
+        <div class="card p-2 mt-2">
+            <img class="card-img-top img-fluid" [src]="member.address || member.addressHoverOut" (mouseover)="member.address = address.Hover" (mouseout)="member.address = member.addressHoverOut" height="100px" width="100px" alt="">
+            <div class="card-body">
+                <p class="card-text text-center">{{member.name}}</p>
+            </div>
+        </div>
+    </div>
+</div> -->

@@ -24,33 +24,45 @@ export class TeamsService {
 const TEAMS:IMember[] =
   [
     {
-        name:"Your mom",
-        address: "../../assets/team-pictures/member1.jpg"
+        name:"Josh Squirrell",
+        address: "../../assets/team-pictures/Josh_Squirrell1.jpg",
+        addressHover:"../../assets/team-pictures/Josh_Squirrell2.jpg",
+        addressHoverOut:"../../assets/team-pictures/Josh_Squirrell1.jpg"
+
+    },
+    {
+      name:"Alex Van Haaren",
+      address: "../../assets/team-pictures/member1.jpg",
+      addressHover:"../../assets/team-pictures/member1.jpg",
+      addressHoverOut:"../../assets/team-pictures/member1.jpg"
 
     },
     {
       name:"Your mom",
-      address: "../../assets/team-pictures/member1.jpg"
+      address: "../../assets/team-pictures/member1.jpg",
+      addressHover:"../../assets/team-pictures/member1.jpg",
+      addressHoverOut:"../../assets/team-pictures/member1.jpg"
 
     },
     {
       name:"Your mom",
-      address: "../../assets/team-pictures/member1.jpg"
+      address: "../../assets/team-pictures/member1.jpg",
+      addressHover:"../../assets/team-pictures/member1.jpg",
+      addressHoverOut:"../../assets/team-pictures/member1.jpg"
 
     },
     {
       name:"Your mom",
-      address: "../../assets/team-pictures/member1.jpg"
+      address: "../../assets/team-pictures/member1.jpg",
+      addressHover:"../../assets/team-pictures/member1.jpg",
+      addressHoverOut:"../../assets/team-pictures/member1.jpg"
 
     },
     {
       name:"Your mom",
-      address: "../../assets/team-pictures/member1.jpg"
-
-    },
-    {
-      name:"Your mom",
-      address: "../../assets/team-pictures/member1.jpg"
+      address: "../../assets/team-pictures/member1.jpg",
+      addressHover:"../../assets/team-pictures/member1.jpg",
+      addressHoverOut:"../../assets/team-pictures/member1.jpg"
 
     }
 
