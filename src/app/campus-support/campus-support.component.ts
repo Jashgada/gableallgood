@@ -7,6 +7,8 @@ import { SupportService } from './campus-support.service';
   templateUrl: './campus-support.component.html',
   styleUrls: ['./campus-support.component.css']
 })
+
+
 export class CampusSupportComponent implements OnInit {
 
   supports: Observable<any[]>;
