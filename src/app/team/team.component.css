@@ -15,9 +15,33 @@ H2{
     box-shadow: 5px 5px 3px grey;
 }
 
-img{
-    border: 4px solid #bb0f55;
+.yellow{
+    border: 15px solid transparent;
+    border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
 }
+
+.lcherry{
+    border: 15px solid transparent;
+    border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+}
+
+.dcherry{
+    border: 15px solid transparent;
+    border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+}
+
+.cherry{
+    border: 15px solid transparent;
+    border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+}
+
+/* img{
+    border: 16px solid transparent;
+    border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+}   */
+
+
+
 
 p{
     font-size: 18px;

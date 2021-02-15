@@ -3,4 +3,5 @@ export interface IMember{
     address:string;
     addressHover:string;
     addressHoverOut:string;
+    
 }
