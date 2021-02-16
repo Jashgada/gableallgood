@@ -20,22 +20,38 @@ H2 >span{
 }
 
 .yellow{
-    border: 15px solid transparent;
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
     border-image: url("../../assets/team-pictures/border_bb0f55.png") 30 round;
 }
 
 .lcherry{
-    border: 15px solid transparent;
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
     border-image: url("../../assets/team-pictures/border_ffd151.png") 30 round;
 }
 
 .dcherry{
-    border: 15px solid transparent;
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
     border-image: url("../../assets/team-pictures/border_591937.png") 30 round;
 }
 
 .cherry{
-    border: 15px solid transparent;
+    border-style: solid;
+    border-width: 15px;
+    -moz-border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+    -webkit-border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
+    -o-border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
     border-image: url("../../assets/team-pictures/border_8e2857.png") 30 round;
 }
 
