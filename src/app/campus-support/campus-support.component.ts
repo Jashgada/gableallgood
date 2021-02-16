@@ -23,7 +23,6 @@ this.supports = this.supportService.getSupports();
   openImage(src:string){
     this.modalImg = src;
 this.imgOpen = true;
-    console.log(src);
   }
 closeImage(){
   this.imgOpen = false;
