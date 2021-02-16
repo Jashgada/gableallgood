@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class PlatformIconsComponent implements OnInit {
 
   @Input() description:boolean;
+  @Input() lastPlat: boolean;
   constructor() { }
 
   ngOnInit(): void {
