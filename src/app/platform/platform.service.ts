@@ -194,9 +194,11 @@ const VARSITY: IPlatform[] = [
 const YOURCAMPUS: IPlatform[] = [
     {
         name: "Submit Your Platform Point",
-        info: `Lorem ipsum dolor sit amet.`,
-        impact:` Lorem ipsum dolor sit amet.`,
-        plan:"Lorem ipsum dolor sit amet.",
+        info: `Want to see something never done before on campus? Submit your ideas for Gable + Allgood to improve UC and your idea might just be chosen to be our final platform point!
+        Similar to one of our initiatives in our Action Pillar, from the start of campaigning to the final day before platform submission, we will be accepting any initiatives ideas you would like us to add to our campaign to be our final platform point!`,
+        
+        impact:``,
+        plan:``,
         color:"yellowish"
     }
 ]

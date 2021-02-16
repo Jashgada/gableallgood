@@ -13,6 +13,7 @@ import { style } from "@angular/animations";
 export class PlatformListComponent{
 
     @Input() platforms: Observable<IPlatform[]>;
+    @Input() specialCase: boolean;
     constructor(){
 
     }
