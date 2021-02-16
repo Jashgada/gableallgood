@@ -3,6 +3,7 @@ import {Component, Input} from '@angular/core'
 import { PlatformService } from "./platform.service";
 import { IPlatform } from "./platform.model";
 import { Observable } from "rxjs";
+import { style } from "@angular/animations";
 
 @Component({
     selector: 'platform-list',

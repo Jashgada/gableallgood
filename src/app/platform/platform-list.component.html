@@ -1,7 +1,12 @@
 <div *ngFor="let platform of platforms | async">
     <div>
         <collapsible-well [title] = "platform.name" [backgroundColor]="platform.color">
+        <h4 class="mt-1">What is this</h4>
         <p>{{platform.info}}</p>
+        <h4 class="mt-1">Who does this impact?</h4>
+        <p>{{platform.impact}}</p>
+        <h4 class="mt-1">What is our plan</h4>
+        <p>{{platform.plan}}</p>
         </collapsible-well>
     </div>
 </div>

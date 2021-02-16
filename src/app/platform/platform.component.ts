@@ -20,7 +20,7 @@ yourcampus: Observable<IPlatform[]>;
   constructor(private platformService: PlatformService) { }
 
   ngOnInit(): void {
-    this.platforms = this.platformService.getPlatforms();
+
     this.campusExp = this.platformService.getCampusExperience();
     this.action = this.platformService.getAction();
     this.sustainability = this.platformService.getSustainability();

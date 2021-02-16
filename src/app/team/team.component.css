@@ -11,6 +11,10 @@ H2{
     text-align: center;
 }
 
+H2 >span{
+    color: #bb0f55
+}
+
 .card{
     box-shadow: 5px 5px 3px grey;
 }
