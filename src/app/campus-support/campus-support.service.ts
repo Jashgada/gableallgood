@@ -162,10 +162,6 @@ const SUPPORT = [
         id:37,
         address: "../../assets/testimonials/37.png"
     },
-	{ 
-        id:38,
-        address: "../../assets/testimonials/38.png"
-    },
     { 
         id:39,
         address: "../../assets/testimonials/39.png"
