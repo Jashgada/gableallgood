@@ -297,7 +297,13 @@ const SUPPORT = [
 	{ 
         id:71,
         address: "../../assets/testimonials/71.png"
+    },
+    { 
+        id:72,
+        address: "../../assets/testimonials/72.png"
+    },
+    { 
+        id:73,
+        address: "../../assets/testimonials/73.png"
     }
-
-
 ]
