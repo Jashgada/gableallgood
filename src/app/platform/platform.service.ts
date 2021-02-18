@@ -117,7 +117,7 @@ const SUSTAINABILITY: IPlatform[] = [
         color:"darkmaroon"
     },
     {
-        name: "Everyone Eats - Bearcat Pantry Fuel Fridge",
+        name: "Everyone Eats - Bearcat Fuel Fridge",
         info: `In between classes and need a snack? Or heading home for the night and haven’t gone grocery shopping yet? We get it!
         Inspired by Cincinnati Local Fridges, SG with support of the Bearcat Food Recovery Network, UC Wellness Center, and Dining Services to add a communal campus fridge for students to take what they need and give what they can.
         Not only will we work to bridge the gap between food insecurity on campus, but lower food waste.`,
