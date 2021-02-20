@@ -290,10 +290,6 @@ const SUPPORT = [
         id:70,
         address: "../../assets/testimonials/70.png"
     },
-	{ 
-        id:71,
-        address: "../../assets/testimonials/71.png"
-    },
     { 
         id:72,
         address: "../../assets/testimonials/72.png"
